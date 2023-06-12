@@ -31,8 +31,8 @@ def calc(credit,abs):
 col1,col2,col3=st.columns(3)
 
 with col1:
-    credit=st.selectbox("Credit of the Course",options=[4,3,2,1])
-    abs = st.slider('How Many Absent so far', min_value=1, max_value=12,step=1)
+    credit=st.selectbox(":blue[Credit of the Course]",options=[4,3,2,1])
+    abs = st.slider(':blue[How Many Absent so far]', min_value=1, max_value=12,step=1)
 
 bunk=calc(credit,abs)
 
