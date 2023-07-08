@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="BUNK CALCULATOR ",page_icon="tada",layout="wide")
 
-st.header(":violet[BUNK CALC]")
+st.header(":red[BUNK] :blue[CALCULATOR]")
 def calc(credit,abs):
     if (credit==1):
         if(abs<3):
